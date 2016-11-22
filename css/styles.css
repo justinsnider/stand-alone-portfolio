@@ -26,6 +26,10 @@ figure {
   width: 20em;
 }
 
+.lg-backdrop {
+    background: #rgba(255,255,255,1);
+}
+
 
 /********************
 MEDIA QUERIES
