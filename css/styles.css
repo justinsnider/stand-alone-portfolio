@@ -3,10 +3,49 @@ YOUR STYLES
 *******************/
 
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Geneva";
+    font-size: 1em;
+}
+
+
 /* Header */
 header {
   display: flex;
-  justify-content: center;
+  
+}
+
+.header {
+/*    width: 768px;*/
+    display: flex;
+    width: 60%;
+    height: 400px;
+    padding: 1em;
+    margin-left: 250px;
+}
+
+.title {
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 2em;
+    color: black;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-right: 50px;
 }
 
 
@@ -15,15 +54,28 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 62.25%;
+  margin-left: 210px;
 }
 
 figure {
+  border: 5px solid black;
+/*  border-radius: 20px;*/
   background: #eee;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 1em;
-  width: 20em;
+  box-shadow: 5px;
+  
+}
+
+img {
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+/*    padding: 1em;*/
+/*    margin: 1.3em;*/
+    
 }
 
 .lg-backdrop {
@@ -39,7 +91,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
+       background: firebrick;
   }
   
     
@@ -62,7 +114,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+       background: firebrick;
   }
 
 }
@@ -72,7 +124,7 @@ MEDIA QUERIES
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+       background: firebrick;
   }
 
 }

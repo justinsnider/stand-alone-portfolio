@@ -7,9 +7,9 @@ var randNum = Math.floor(Math.random() * max );
 console.log(randNum);
 
 // Store Images
-var img0 = '/img/fullsize/1.jpg';
-var img0 = '/img/fullsize/2.jpg';
-var img0 = '/img/fullsize/3.jpg';
+var img0 = '/img/jimmy.jpg';
+var img1 = '/img/walter.jpg';
+var img2 = '/img/mega_man.jpg';
 
 
 // Show Images
@@ -21,3 +21,10 @@ $('header img').attr('src', eval('img' + randNum) );
 $('figure').lightGallery({
     selector: 'a'
 });
+
+
+
+
+
+
+
